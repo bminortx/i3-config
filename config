@@ -16,7 +16,7 @@ font -misc-fixed-medium-*-*--12-*-*-*-*-*-*-*
 ## Colours
 ##---------
 #colourclass                border    bckgrnd    text
-client.focused             #006699    #006699    #FFFFFF
+client.focused             #8199B2    #8199B2    #000000
 client.focused_inactive    #333333    #333333    #999999
 client.unfocused           #333333    #333333    #999999
 client.urgent              #FF0000    #8C5665    #FF0000

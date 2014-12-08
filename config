@@ -166,16 +166,8 @@ Bindsym XF86AudioRaiseVolume exec /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ 
   bindsym XF86AudioMute exec /usr/bin/pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 # switch between the current and the next workspace
-bindsym $mod+Tab workspace back_and_forth
-bindsym $mod+Shift+Tab move container to workspace back_and_forth
-
-# switch between the current and the next workspace
-bindsym $mod+n workspace next
-bindsym $mod+Shift+n move container to workspace next
-
-# switch between the current and the next workspace
-bindsym $mod+b workspace prev
-bindsym $mod+Shift+b move container to workspace prev
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
 
 # move the whole workspace to the next output
 bindsym $mod+x move workspace to output right

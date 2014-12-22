@@ -68,6 +68,7 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+
 # split in horizontal orientation
 bindsym $mod+h split h
 
@@ -171,3 +172,5 @@ bindsym $mod+Shift+Tab workspace prev
 
 # move the whole workspace to the next output
 bindsym $mod+x move workspace to output right
+
+exec --no-startup-id wicd-gtk -t

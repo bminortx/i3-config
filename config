@@ -162,9 +162,9 @@ bar {
 }
 
 # Audio bindings
-Bindsym XF86AudioRaiseVolume exec /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ -- '+5%'
-  bindsym XF86AudioLowerVolume exec /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ -- '-5%'
-  bindsym XF86AudioMute exec /usr/bin/pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioRaiseVolume exec /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ -- '+5%'
+bindsym XF86AudioLowerVolume exec /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ -- '-5%'
+bindsym XF86AudioMute exec /usr/bin/pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 # switch between the current and the next workspace
 bindsym $mod+Tab workspace next
@@ -174,3 +174,4 @@ bindsym $mod+Shift+Tab workspace prev
 bindsym $mod+x move workspace to output right
 
 exec --no-startup-id wicd-gtk -t
+exec --no-startup-id dropbox start
